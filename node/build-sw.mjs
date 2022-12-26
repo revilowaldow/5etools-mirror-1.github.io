@@ -38,7 +38,7 @@ const workboxPrecacheBuildResult = await injectManifest({
 		"js/**/*.js", // all js needs to be loaded
 		"lib/**/*.js", // js in lib needs to be loaded
 		"css/**/*.css", // all css needs to be loaded
-		"homebrew/**/*.json", // presumably if there is homebrew data it should also be loaded
+		"homebrew/*.json", // presumably if there is homebrew data it should also be loaded
 		// we want to match all data unless its for an adventure
 		"data/*.json", // root level data
 		"data/**/!(adventure)/*.json", // matches all json in data unless it is a file inside a directory called adventure

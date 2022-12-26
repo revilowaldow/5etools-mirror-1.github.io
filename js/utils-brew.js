@@ -1629,6 +1629,7 @@ class ManageBrewUi {
 			</div>
 			<div class="ve-flex-v-center">
 				<a href="${this._brewUtil.URL_REPO_DEFAULT}" class="ve-flex-v-center" target="_blank" rel="noopener noreferrer"><button class="btn btn-default btn-sm mr-2">Browse Source Repository</button></a>
+				<a href="/homebrew" class="ve-flex-v-center" target="_blank" rel="noopener noreferrer"><button class="btn btn-default btn-sm mr-2">Browse Local Homebrew Folder</button></a>
 
 				<div class="ve-flex-v-center btn-group">
 					${$btnPullAll}

@@ -5,5 +5,29 @@
 		"This file contains as an index for other homebrew files, which should be placed in the same directory.",
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
-	"toImport": []
+	"toImport": [
+		"draft/HapHazred; Blood in the Company - Players Introduction.json",
+		"draft/Xadrow; Nevermore.json",
+		"playtest/SANDBOX.json",
+		"LivingWeapon.json",
+
+		"HapHazred; Wyldefarne Magic.json",
+		"Lyra; Lyra's Dad's Chilli.json",
+		"Various; Lyra's Legendarium.json",
+
+		"Darrington Press; Tal'Dorei Campaign Setting Reborn.json",
+		"Wizards of the Coast; Errata Spellcasters.json",
+		"Giddy; Sane Magic Item Prices Expanded.json",
+		"Jasmine Yang; Hamund's Herbalism Handbook.json",
+		"Jasmine Yang; Hamund's Harvesting Handbook I.json",
+		"Jasmine Yang; Hamund's Harvesting Handbook II.json",
+		"Jasmine Yang; Hamund's Harvesting Handbook III.json",
+
+		"Dragonix; Monster Manual Expanded.json",
+		"Dragonix; Monster Manual Expanded II.json",
+		"Kobold Press; Tome of Beasts.json",
+		"Kobold Press; Tome of Beasts 2.json",
+
+		"draft/Aeron Drake; Modern Handbook.json"
+	]
 }
