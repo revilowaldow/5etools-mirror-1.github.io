@@ -1,0 +1,16 @@
+{
+	"toImport": [
+		"playtest/SANDBOX.json",
+
+		"unearthed-arcana/collection/Unearthed Arcana - Downtime.json",
+		"unearthed-arcana/collection/Unearthed Arcana - Encounter Building.json",
+		"unearthed-arcana/collection/Unearthed Arcana - Into the Wild.json",
+		"unearthed-arcana/collection/Unearthed Arcana - Quick Characters.json",
+		"unearthed-arcana/collection/Unearthed Arcana - Traps Revisited.json",
+		"unearthed-arcana/collection/Unearthed Arcana - When Armies Clash.json",
+		"unearthed-arcana/collection/Unearthed Arcana 2022 - Character Origins.json",
+		"unearthed-arcana/collection/Unearthed Arcana 2022 - Expert Classes.json",
+		"unearthed-arcana/collection/Unearthed Arcana 2022 - The Cleric and Revised Species.json",
+		"unearthed-arcana/collection/Unearthed Arcana - Downtime.json"
+	]
+}
