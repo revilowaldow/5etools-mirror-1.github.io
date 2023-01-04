@@ -2119,7 +2119,7 @@ class ManageBrewUi {
 	}
 
 	async _pRender_pDoEditBrew ({rdState, brew}) {
-		const {isDirty, brew: nxtBrew} = await ManageEditableBrewContentsUi.pDoOpen({brew, isModal: this._isModal});
+		const {isDirty, brew: nxtBrew} = await ManageEditableBrewContentsUi.pDoOpen({brewUtil: this._brewUtil, brew, isModal: this._isModal});
 		if (!isDirty) return;
 
 		await this._brewUtil.pUpdateBrew(nxtBrew);
@@ -2888,9 +2888,9 @@ class ManageEditableBrewContentsUi extends BaseComponent {
 		}
 	};
 
-	static async pDoOpen ({brew, isModal: isParentModal = false}) {
+	static async pDoOpen ({brewUtil, brew, isModal: isParentModal = false}) {
 		return new Promise((resolve, reject) => {
-			const ui = new this({brew, isModal: true});
+			const ui = new this({brewUtil, brew, isModal: true});
 			const rdState = new this._RenderState();
 			const {$modalInner} = UiUtil.getShowModal({
 				isHeight100: true,
@@ -2911,11 +2911,12 @@ class ManageEditableBrewContentsUi extends BaseComponent {
 		});
 	}
 
-	constructor ({brew, isModal}) {
+	constructor ({brewUtil, brew, isModal}) {
 		super();
 
 		TabUiUtil.decorate(this, {isInitMeta: true});
 
+		this._brewUtil = brewUtil;
 		this._brew = MiscUtil.copyFast(brew);
 		this._isModal = isModal;
 
