@@ -8,9 +8,9 @@
 	"toImport": [
 		"draft/HapHazred; Blood in the Company - Players Introduction.json",
 		"draft/Xadrow; Nevermore.json",
+		"draft/HapHazred; Wyldefarne.json",
 		"LivingWeapon.json",
 
-		"HapHazred; Wyldefarne.json",
 		"Lyra; Lyra's Dad's Chilli.json",
 		"Various; Lyra's Legendarium.json",
 
@@ -21,12 +21,11 @@
 		"Jasmine Yang; Hamund's Harvesting Handbook II.json",
 		"Jasmine Yang; Hamund's Harvesting Handbook III.json",
 		"Wyrmwood; Corrupted Tarot.json",
+		"Liz Marsham; Exquisite Exandria.json",
 
 		"Dragonix; Monster Manual Expanded (v1).json",
 		"Dragonix; Monster Manual Expanded II (v2).json",
 		"Kobold Press; Tome of Beasts.json",
-		"Kobold Press; Tome of Beasts 2.json",
-
-		"draft/Liz Marsham; Exquisite Exandria.json"
+		"Kobold Press; Tome of Beasts 2.json"
 	]
 }
